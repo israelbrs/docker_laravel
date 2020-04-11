@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47fa3605-adf3-49fc-b571-a859681fdff8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.docker/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/entrypoint.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +158,9 @@
       <workItem from="1586304744445" duration="11632000" />
       <workItem from="1586319405801" duration="424000" />
       <workItem from="1586388122282" duration="4098000" />
-      <workItem from="1586546223869" duration="194000" />
+      <workItem from="1586546223869" duration="872000" />
+      <workItem from="1586640396282" duration="433000" />
+      <workItem from="1586640837689" duration="126000" />
     </task>
     <servers />
   </component>
@@ -180,9 +180,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="100" y="99" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586310926812" />
-    <state x="643" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1586388181997">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2563" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1586640837637">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2563" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586640837637" />
     <state x="643" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586388181997" />
     <state x="613" y="137" width="683" height="759" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586311038965">
       <screen x="0" y="0" width="1920" height="1040" />

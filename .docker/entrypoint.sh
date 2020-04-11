@@ -1,15 +1,16 @@
 #!/bin/bash
 composer install
 
+cp .env.example .env
 chown -R www-data: /var/www/
 chown -R 1000: /var/www/.docker/dbdata
 chmod 777 -R /var/www/
-cp .env.example .env
 
-php artisan migrate
-php artisan key:generate
+sleep 2
 
-php artisan cache:clear
-php artisan config:cache
+php artisan migrate &&
+    php artisan cache:clear &&
+    php artisan key:generate &&
+    php artisan config:cache
 
 php-fpm
