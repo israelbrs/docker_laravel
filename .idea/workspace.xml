@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47fa3605-adf3-49fc-b571-a859681fdff8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/mysql/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/mysql/persistent-volume.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/mysql/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/pod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +169,8 @@
       <workItem from="1586388122282" duration="4098000" />
       <workItem from="1586546223869" duration="872000" />
       <workItem from="1586640396282" duration="433000" />
-      <workItem from="1586640837689" duration="925000" />
+      <workItem from="1586640837689" duration="1554000" />
+      <workItem from="1587086114997" duration="6581000" />
     </task>
     <servers />
   </component>
@@ -198,10 +203,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="238" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586307770111" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1586305169152">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1246" y="228" width="1344" height="678" key="search.everywhere.popup" timestamp="1587091402058">
+      <screen x="0" y="0" width="3840" height="1040" />
     </state>
     <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586305169152" />
+    <state x="1246" y="228" width="1344" height="678" key="search.everywhere.popup/0.0.3840.1040@0.0.3840.1040" timestamp="1587091402058" />
     <state x="685" y="434" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586391331656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
